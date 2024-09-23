@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.text1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 60px;
+  color: #fff;
+}
+
+.text2 {
+  font-family: "OpenSans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+}
+
+.text3 {
+  font-family: "BebasNeueBold", sans-serif;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 11px;
+  text-align: center;
+  color: #fff;
+}
+
+.container1 {
+  background-image: url(bg.jpg);
+  height: 769px;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  margin-bottom: 5px;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #fff;
+}
+
+.nav-list {
+  font-family: "OpenSans", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.09em;
+  color: #48555b;
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-list a:hover {
+  color: #00a4e5;
+  transition: color 0.3s ease-in-out;
+}

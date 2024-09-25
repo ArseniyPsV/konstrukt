@@ -132,3 +132,11 @@
 .text5 {
   flex-direction: column;
 }
+
+.capabilities {
+  font-family: "BebasNeueBold", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.13em;
+  color: #48555b;
+}

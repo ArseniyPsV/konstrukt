@@ -49,6 +49,7 @@
   flex-direction: row;
   justify-content: space-around;
   background-color: #fff;
+  margin: 40px;
 }
 
 .nav-list {
@@ -60,6 +61,8 @@
   list-style: none;
   display: flex;
   gap: 15px;
+  border-width: 3px;
+  border-color: #48555B;
 }
 
 .nav-list a {
@@ -71,4 +74,61 @@
 .nav-list a:hover {
   color: #00a4e5;
   transition: color 0.3s ease-in-out;
+}
+
+.story {
+  font-family: "BebasNeueBold", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.13em;
+  text-align: center;
+  color: #48555b;
+  text-align: center;
+  margin-bottom: 40px
+}
+
+.container3 {
+  margin: 0 150px;
+  display: flex;
+  background-color: #fff;
+  justify-content: end;
+}
+
+.weImages {
+  display: flex;
+  align-content: space-around;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.image3 {
+  padding-left: 50px;
+  margin: 10px;
+}
+
+.foundationText {
+  font-family: "OpenSans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.01em;
+  color: #48555b;
+}
+
+.Konstruct {
+  letter-spacing: 0.01em;
+  color: #16ace8;
+}
+
+.lorem {
+  padding-top: 20px;
+  font-family: "OpenSans", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 177%;
+  letter-spacing: 0.01em;
+  color: #48555b;
+}
+
+.text5 {
+  flex-direction: column;
 }

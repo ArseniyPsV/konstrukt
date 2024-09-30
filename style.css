@@ -50,6 +50,7 @@
   justify-content: space-around;
   background-color: #fff;
   margin: 40px;
+  width: 1442px;
 }
 
 .nav-list {
@@ -139,4 +140,82 @@
   font-size: 18px;
   letter-spacing: 0.13em;
   color: #48555b;
+}
+
+.text6 {
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.container4 {
+  justify-content: space-between;
+  margin: 40px 150px;
+  display: flex;
+  background-color: #fff;
+}
+
+.lorem2 {
+  font-family: "OpenSans", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 177%;
+  letter-spacing: 0.01em;
+  color: #48555b;
+}
+
+.allservices {
+  border: 0;
+  height: 40px;
+  width: 150px;
+  font-family: "OpenSans", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.04;
+  text-align: center;
+  color: #fff;
+  background-color: #16ace8;
+}
+
+.allservices:active {
+  height: 38px;
+  width: 148px;
+}
+
+.container5 {
+  margin: 40px 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.project {
+  width: 295px;
+  height: 330px;
+}
+
+.structure {
+  width: 295px;
+  height: 330px;
+}
+
+.factory {
+  width: 295px;
+  height: 330px;
+}
+
+.management {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.03em;
+  color: #48555b;
+  font-family: "BebasNeueBold", sans-serif;
+  margin: 15px 0;
+}
+
+.container6 {
+  height: 499px;
+  background-image: url(bg2.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
 }

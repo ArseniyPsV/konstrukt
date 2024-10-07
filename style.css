@@ -49,7 +49,7 @@
   flex-direction: row;
   justify-content: space-around;
   background-color: #fff;
-  margin: 40px;
+  margin: 40px auto;
   width: 1442px;
 }
 
@@ -165,8 +165,8 @@
 
 .allservices {
   border: 0;
-  height: 40px;
-  width: 150px;
+  min-height: 40px;
+  min-width: 150px;
   font-family: "OpenSans", sans-serif;
   font-weight: 700;
   font-size: 13px;
@@ -177,11 +177,12 @@
 }
 
 .allservices:active {
-  height: 38px;
-  width: 148px;
+  min-height: 38px;
+  min-width: 148px;
 }
 
 .container5 {
+  min-height: 446px;
   margin: 40px 150px;
   display: flex;
   justify-content: space-between;
@@ -189,17 +190,17 @@
 
 .project {
   width: 295px;
-  height: 330px;
+  min-height: 330px;
 }
 
 .structure {
-  width: 295px;
-  height: 330px;
+  min-width: 295px;
+  min-height: 330px;
 }
 
 .factory {
-  width: 295px;
-  height: 330px;
+  min-width: 295px;
+  min-height: 330px;
 }
 
 .management {
@@ -213,9 +214,245 @@
 }
 
 .container6 {
+  background-repeat: no-repeat;
   height: 499px;
-  background-image: url(bg2.jpg);
   background-size: cover;
+  background-image: url(bg2.jpg);
   background-position: center center;
-  background-attachment: fixed;
+}
+
+.text7 {
+  width: 350px;
+  min-height: 72px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.build {
+  font-family: "BebasNeueBold", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 120%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #48555b;
+} 
+
+.signupinput {
+  min-width: 250px;
+  min-height: 40px;
+}
+
+.container7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #171819;
+  height: 100px;
+  gap: 50px;
+}
+
+.news {
+  font-family: "BebasNeueBold", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+}
+
+.lorem3 {
+  font-family: "OpenSans", sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 173%;
+  letter-spacing: 0.08em;
+  color: #fff;
+}
+
+.image1 {
+  width: 102px;
+  height: 23px;
+}
+
+.container8 {
+  height: 299px;
+  background-color: #141a20;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+}
+
+.lorem4 {
+  font-family: "OpenSans", sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 173%;
+  letter-spacing: 0,08em;
+  color: #fff;
+}
+
+.text_company {
+  font-family: "OpenSans", sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 173%;
+  letter-spacing: 0,08em;
+  color: #fff;
+}
+
+.company {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.nav2 .nav-list2 li {
+  list-style: none;
+}
+
+.nav-list2 li a{
+  font-family: "OpenSans", sans-serif;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 227%;
+  letter-spacing: 0.08em;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.faq,
+.blog {
+  align-self: center;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.facebook,
+.twitter,
+.google {
+  width: 12px;
+  height: 12px;
+  fill: white
+}
+
+.facebook:hover {
+  fill: blue;
+}
+
+.twitter:hover {
+  fill: darkturquoise;
+}
+
+.google:hover {
+  fill: red;
+}
+
+.container9 {
+  display: flex;
+  justify-content: center;
+  background-color: #171819;
+  min-height: 60px;
+}
+
+.inc {
+  align-self: center;
+  font-family: "OpenSans", sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  color: #fff;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 1200px) {
+  .container2 {
+   gap: 15px;
+   flex-direction: column; 
+   width: auto;
+   width: auto;
+   height: auto;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    margin: auto;
+    width: auto;
+    height: auto;
+  }
+
+  .container5 {
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: auto;
+    height: auto;
+  }
+
+  .container7 {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    margin: auto;
+    width: auto;
+    height: auto;
+  }
+
+  .container4 {
+      flex-direction: column;
+      align-items: center;
+      margin: auto;
+      width: auto;
+      height: auto;
+    }
+
+  .container3 {
+      flex-direction: column;
+      align-items: center;
+      margin: auto;
+      width: auto;
+      height: auto;
+    }
+
+  .weImages {
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: auto;
+    height: auto;
+  }
+
+  .container8 {
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    gap: 15px;
+  }
+
+  * {
+    margin: auto;
+  }
 }
